@@ -1,58 +1,118 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo">
-          <p>техномарт</p>
-        </a>
-        <input type="text" placeholder="Поиск:">
-        <a class="bookmarks" href="#">
-          Закладки: 0
-        </a>
-        <a class="basket" href="#">
-          Корзина: 0
-        </a>
-        <a class="submit-order" href="#">
-          Оформить заказ
-        </a>
-      </nav>
-      <h1>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта<br></h1>
-      <address>
-        <ul class="address-list">
-          <li class="address-item">
-            <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
-          </li>
-          <li class="address-item">
-            <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-          </li>
-        </ul>
-      </address>
-      <ul class="user-navigation">
-        <li class="user-navigation-item"><a class="login-link" href="#">Войти</a></li>
-        <li class="user-navigation-item"><a class="register-link" href="#">Регистрация</a></li>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&amp;subset=cyrillic"
+    rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <p>техномарт</p>
+      </a>
+      <input type="text" placeholder="Поиск:">
+      <a class="bookmarks" href="#">
+        Закладки: 0
+      </a>
+      <a class="basket" href="#">
+        Корзина: 0
+      </a>
+      <a class="submit-order" href="#">
+        Оформить заказ
+      </a>
+    </nav>
+    <h1>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта<br></h1>
+    <address>
+      <ul class="address-list">
+        <li class="address-item">
+          <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+        </li>
+        <li class="address-item">
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        </li>
       </ul>
-      <nav class="secondary-navigation">
-        <ul class="store-navigation">
-          <li class="store-navigation-item"><a href="#">Главная</a></li>
-          <li class="store-navigation-item"><a href="#">Компания</a></li>
-          <li class="store-navigation-item"><a href="#">Каталог</a></li>
-          <li class="store-navigation-item"><a href="#">Новости</a></li>
-          <li class="store-navigation-item"><a href="#">Спецпредложения</a></li>
-          <li class="store-navigation-item"><a href="#">Доставка</a></li>
-          <li class="store-navigation-item"><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
+    </address>
+    <ul class="user-navigation">
+      <li class="user-navigation-item">
+        <a class="login-link" href="#">Войти</a>
+      </li>
+      <li class="user-navigation-item">
+        <a class="register-link" href="#">Регистрация</a>
+      </li>
+    </ul>
+    <nav class="secondary-navigation">
+      <ul class="store-navigation">
+        <li class="store-navigation-item">
+          <a href="#">Главная</a>
+        </li>
+        <li class="store-navigation-item">
+          <a href="#">Компания</a>
+        </li>
+        <li class="store-navigation-item">
+          <a href="#">Каталог</a>
+        </li>
+        <li class="store-navigation-item">
+          <a href="#">Новости</a>
+        </li>
+        <li class="store-navigation-item">
+          <a href="#">Спецпредложения</a>
+        </li>
+        <li class="store-navigation-item">
+          <a href="#">Доставка</a>
+        </li>
+        <li class="store-navigation-item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="advertising">
+      <h2 class="visually-hidden">Товары и услуги</h2>
+      <ul class="advertising-list">
+        <li class="advertising-item">
+          <h2>Материалы</h2>
+          <a href="#">на любой вкус</a>
+        </li>
+        <li class="advertising-item">
+          <h2>Инструмент</h2>
+          <a href="#">на все случаи</a>
+        </li>
+        <li class="advertising-item">
+          <h2>Техника</h2>
+          <a href="#">для стройки</a>
+        </li>
+        <li class="advertising-item">
+          <h2>Скидки 50%</h2>
+          <a href="#">на 350 товаров</a>
+        </li>
+        <li class="advertising-item">
+          <h2>Доставка</h2>
+          <a href="#">бесплатно</a>
+        </li>
+      </ul>
+      <ul class="slider-list">
+        <li class="slider-item">
+          <h2>дрели</h2>
+          <p>Соседям на радость!</p>
+          <a class="button" href="#">открыть каталог</a>
+        </li>
+        <li class="slider-item">
+          <h2>перфораторы</h2>
+          <p>Настоящие мужские игрушки</p>
+          <a class="button" href="#">открыть каталог</a>
+        </li>
+      </ul>
+    </section>
 
+  </main>
 
-    </header>
+</body>
 
-  </body>
 </html>
