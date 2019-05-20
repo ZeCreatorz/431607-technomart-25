@@ -12,7 +12,7 @@
 
 <body>
   <header class="main-header">
-    <div class="main-navigation">
+    <div class="user-navigation">
       <a class="main-header-logo">
         <img src="http://placehold.it/220x47" width="220" height="47" alt="Логотип компании «Техномарт»">
       </a>
@@ -36,7 +36,7 @@
         <a class="contacts-tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p class="contacts-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </address>
-      <ul class="user-navigation">
+      <ul class="user-navigation-list">
         <li class="user-navigation-item">
           <a class="login-link" href="#">Войти</a>
         </li>
@@ -95,24 +95,36 @@
           <a href="#">Бесплатно</a>
         </li>
         <li class="advertising-item">
-          <h2>Дрели</h2>
-          <p>Соседям на радость!</p>
-          <a class="button" href="#">Открыть каталог</a>
-          <input class="visually-hidden" type="radio" id="product-1" name="toggle">
-          <label class="slider-advertising-item slider-advertising-item--1" for="product-1"></label>
-          <a class="sort-arrow sort-arrow-next" href="#">
-            <span class="visually-hidden">Вперед</span>
-          </a>
-        </li>
-        <li class="advertising-item">
-          <h2>Перфораторы</h2>
-          <p>Настоящие мужские игрушки</p>
-          <a class="button" href="#">открыть каталог</a>
-          <input class="visually-hidden" type="radio" id="product-2" name="toggle" checked>
-          <label class="slider-advertising-item slider-advertising-item--2" for="product-2"></label>
-          <a class="sort-arrow sort-arrow-prev" href="#">
-            <span class="visually-hidden">Назад</span>
-          </a>
+          <ul class="slider-list">
+            <li class="slider-item">
+              <h2>Дрели</h2>
+              <p>Соседям на радость!</p>
+              <img src="http://placehold.it/620x266" width="620" height="266" alt="Слайдер Перфораторы">
+              <a class="button" href="#">открыть каталог</a>
+            </li>
+            <li class="slider-item">
+              <h2>Перфораторы</h2>
+              <p>Настоящие мужские игрушки</p>
+              <img src="http://placehold.it/620x266" width="620" height="266" alt="Слайдер Дрели">
+              <a class="button" href="#">открыть каталог</a>
+            </li>
+          </ul>
+          <ul class="slider-arrows-list">
+            <li class="slider-arrows-item">
+              <button type="button" class="arrows prevarrow" aria-label="Предыдущий слайдер"></button>
+            </li>
+            <li>
+              <button type="button" class="arrows nextarrow" aria-label="Следующший слайдер"></button>
+            </li>
+          </ul>
+          <ul class="slider-button-list">
+            <li class="slider-button-item">
+              <button type="button" class="slider-button" aria-label="Первый слайдер"></button>
+            </li>
+            <li class="slider-button-item">
+              <button type="button" class="slider-button slider-button-current" aria-label="Второй слайдер"></button>
+            </li>
+          </ul>
         </li>
       </ul>
     </section>
@@ -131,8 +143,8 @@
               В Закладки
             </a>
           </div>
-          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 9000">
           <h3>Перфоратор bosch bfg 9000</h3>
+          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 9000">
           <s class="old-price">32500р.</s>
           <p class="current-price">25500р.</p>
         </li>
@@ -145,8 +157,8 @@
               В Закладки
             </a>
           </div>
-          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 3000">
           <h3>Перфоратор bosch bfg 3000</h3>
+          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 3000">
           <s class="old-price">22500р.</s>
           <p class="current-price">15500р.</p>
         </li>
@@ -159,8 +171,8 @@
               В Закладки
             </a>
           </div>
-          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 6000">
           <h3>Перфоратор bosch bfg 6000</h3>
+          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 6000">
           <s class="old-price">30500р.</s>
           <p class="current-price">25500р.</p>
         </li>
@@ -173,8 +185,8 @@
               В Закладки
             </a>
           </div>
-          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 2000">
           <h3>Перфоратор bosch bfg 2000</h3>
+          <img src="http://placehold.it/218x170" width="218" height="170" alt="Перфоратор bosch bfg 2000">
           <p class="current-price">12500р.</p>
         </li>
       </ul>
