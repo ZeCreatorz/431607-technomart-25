@@ -95,8 +95,12 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-logo {
-  width: 220px;
-  height: 47px;
+  width: 108px;
+  height: 18px;
+}
+
+.main-navigation-link {
+  line-height: 18px;
 }
 
 .user-navigation a {
@@ -152,10 +156,62 @@ input[type="radio"].visually-hidden {
 }
 
 .store-information-title {
-  font-weight: 300;
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
+}
+
+.contacts-tel {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ee3643;
+}
+
+.contacts-address {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.login-link {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #000000;
+
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.register-link {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #000000;
+
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 11px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: inherit;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+  border: none;
+  border-radius: 3px;
 }
 
 .store-information {
@@ -201,16 +257,125 @@ input[type="radio"].visually-hidden {
 
 .advertising-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .advertising-list {
   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 
   list-style: none;
 }
 
+.advertising-item {
+  position: relative;
+  display: flex;
+}
+
+.advertising-button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 12px;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 3px;
+}
+
+.advertising-item:first-child {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+
+  background-color: #ffbf47;
+}
+
+.advertising-item:nth-child(2) {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+
+  background-color: #3bbce3;
+}
+
+.advertising-item:nth-child(3) {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+
+  background-color: #dc91d8;
+}
+
+.advertising-item:nth-child(4) {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+
+  background-color: #8ed78f;
+}
+
+.advertising-item:nth-child(5) {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+
+  background-color: #ffc047;
+}
+
+.advertising-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
 .slider-list {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+}
+
+.slider-item {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-title {
+  margin: 0;
+  padding: 22px 0 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slider-text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.slider-button {
+  min-width: 195px;
 }
 
 .slider-arrows-list {
@@ -224,8 +389,199 @@ input[type="radio"].visually-hidden {
 .popular-products-title-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5f0;
 }
 
 .popular-products-list {
+  list-style: none;
+}
+
+.popular-item-title {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.popular-products-link {
+  min-width: 253px;
+  margin: 0;
+}
+
+.popular-products-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.popular-products-link h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.button-buy {
+  min-width: 135px;
+
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.button-bookmarks {
+  min-width: 135px;
+
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #32425c;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #63a63e;
+}
+
+.popular-manufacturers-link {
+  min-width: 253px;
+  margin: 0;
+}
+
+.popular-manufacturers-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.popular-manufacturers-link h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.popular-manufacturers-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5f0;
+}
+
+.popular-manufacturers-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  min-height: 145px;
+  vertical-align: bottom;
+  list-style: none;
+}
+
+.popular-manufacturers-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 220px;
+  box-sizing: border-box;
+  outline: 1px solid #eaeaea;
+}
+
+.popular-manufacturers-item img {
+  display: block;
+}
+
+.services {
+  background-color: #f5f8fa;
+}
+
+.services-toggles-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.services-button {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.services h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.services p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.services-item h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.about h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about p {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.about-list {
+  list-style: none;
+}
+
+.about-item p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.footer-navigation-list {
+  list-style: none;
+}
+
+.footer-secondary-navigation-list {
   list-style: none;
 }
